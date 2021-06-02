@@ -15,7 +15,7 @@
     padding: 10px;
 }
 .nav-bar h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: rgba(255, 255, 255, 0.61);
     display: flex;
     justify-content: start;
@@ -50,10 +50,8 @@ header {
     padding: 20px 50px; /* 20px no top e bottom e 50px nas laterais*/
     background-color: #fff;
 }
-h1{
+header h1{
 font-family:'PEIGNOT-LT-STD-BOLD', Times, serif; /*mesmo nome dado em @font-face*/
-      font-size: 3em;
-      font-weight: normal;
 }
 
 @font-face {
@@ -127,6 +125,7 @@ header li:last-child {
 }
 .hero h1 span{
     font-family: 'PEIGNOT-LT-STD-BOLD';
+    font-size: 48px;
 }
 
 .hero h3 {
@@ -280,6 +279,7 @@ header li:last-child {
 }
 .caracteristicas p span{
     font-family: 'PEIGNOT-LT-STD-BOLD';
+    font-size: 14px;
 }
 
 .caracteristicas hr {
