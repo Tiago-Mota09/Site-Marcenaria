@@ -259,7 +259,9 @@ header li:last-child {
 }
 
 /*CLASS SOBRE*/
-
+.sobrenos{
+    margin: 0 auto;
+}
 .sobre {
     background-color: #af8049;
     display: flex;
@@ -272,7 +274,6 @@ header li:last-child {
     font-size: 2rem;
     margin-bottom: 35px;
     color: #fff;
-    text-align: center;
     font-family: 'calibri';
     font-style: italic;
 }
