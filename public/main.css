@@ -90,7 +90,7 @@ header li:last-child {
     margin-right: 0px;
 }
 
-/*DEIXANDO O MENU RESPONSIVO BRREAKPOINT */
+/*DEIXANDO O MENU RESPONSIVO BREAKPOINT */
 
 @media (max-width: 700px){
     header{
@@ -102,9 +102,9 @@ header li:last-child {
     }
 }
 
-/*HERO*/
+/*CLASS PRINCIPAL*/
 
-.hero {
+.principal {
     background-image: url(https://cdn.pixabay.com/photo/2016/07/30/20/52/vintage-1557993_960_720.jpg);
     background-size: cover;
     min-height: 100vh;
@@ -117,24 +117,24 @@ header li:last-child {
     font-family: 'calibri', sans-serif;
 }
 
-.hero h1 {
+.principal h1 {
     font-size: 3.2rem;
     margin-bottom: 15px;
     font-family: 'calibri', sans-serif;
     font-weight: bold;
 }
-.hero h1 span{
+.principal h1 span{
     font-family: 'PEIGNOT-LT-STD-BOLD';
     font-size: 48px;
 }
 
-.hero h3 {
+.principal h3 {
     font-size: 2rem;
     margin-bottom: 15px;
     
 }
 
-.hero .btn {
+.principal .btn {
     background-color: #774a17f1;
     border-radius: 4px;
     color: #ffffff;
@@ -165,25 +165,25 @@ header li:last-child {
 
 /*DIMINUINDO OS TEXTO PARA MOBIL BREAKPOINT */
 @media (max-width: 700px){
-    .hero h1 {
+    .principal h1 {
         font-size: 2.5rem;
     }
 
-    .hero h3 {
+    .principal h3 {
         font-size: 1.5rem;
     }
 }
 
-/* CONHEÇA O HOTEL */
+/* CLASS GALERIA */
 
-.conheca-o-hotel {
+.galeria {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 100px 50px;
 }
 
-.conheca-o-hotel h3 {
+.galeria h3 {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 35px;
@@ -191,17 +191,17 @@ header li:last-child {
     font-style: italic;
 }
 
-.conheca-o-hotel p {
+.galeria p {
     max-width: 800px;
     margin-bottom: 35px;
     color: #5c2d01;
     text-align: center;
 }
-.conheca-o-hotel p span{
+.galeria p span{
     font-family: 'PEIGNOT-LT-STD-BOLD';
 }
 
-.conheca-o-hotel hr {
+.galeria hr {
     width: 200px;
     height: 2px;
     background-color: #5c2d01;
@@ -209,13 +209,13 @@ header li:last-child {
     border: none;
 }
 
-.conheca-o-hotel .grid {
+.galeria .grid {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.conheca-o-hotel .grid li {
+.galeria .grid li {
     height: 350px;
     padding: 20px;
     border-radius: 4px;
@@ -223,7 +223,7 @@ header li:last-child {
     background-size: cover;
     background-position: center;
 } 
-.conheca-o-hotel .grid li h2{
+.galeria .grid li h2{
     font-size: 3rem;
     font-family: 'calibri';
     color: #ffffff;
@@ -238,29 +238,29 @@ header li:last-child {
     -webkit-text-stroke-color: #5c2d01; /* cor da borda */
 } 
 
-.conheca-o-hotel .grid li.small {
+.galeria .grid li.small {
     flex-basis: 40%;
 }
 
 
-.conheca-o-hotel .grid li.large {
+.galeria .grid li.large {
     flex-basis: 60%;
 }
 
-/* BRREAKPOINT */ 
+/* BREAKPOINT */ 
 @media (max-width: 700px){
-    .conheca-o-hotel .grid li.small {
+    .galeria .grid li.small {
         flex-basis: 100%;
     }
 
-    .conheca-o-hotel .grid li.large {
+    .galeria .grid li.large {
         flex-basis: 100%;
     }
 }
 
-/*CLASS CARACTERISTICAS*/
+/*CLASS SOBRE*/
 
-.caracteristicas {
+.sobre {
     background-color: #af8049;
     display: flex;
     flex-direction: column;
@@ -268,7 +268,7 @@ header li:last-child {
     padding: 100px 50px;
 }
 
-.caracteristicas h3 {
+.sobre h3 {
     font-size: 2rem;
     margin-bottom: 35px;
     color: #fff;
@@ -277,18 +277,18 @@ header li:last-child {
     font-style: italic;
 }
 
-.caracteristicas p {
+.sobre p {
     max-width: 800px;
     margin-bottom: 35px;
     color: #fff;
     text-align: center;
 }
-.caracteristicas p span{
+.sobre p span{
     font-family: 'PEIGNOT-LT-STD-BOLD';
     font-size: 14px;
 }
 
-.caracteristicas hr {
+.sobre hr {
     width: 200px;
     height: 2px;
     background-color: #fff;
@@ -296,49 +296,49 @@ header li:last-child {
     border: none;
 }
 
-.caracteristicas .grid {
+.sobre .grid {
     width: 100%;
     display: flex;
 }
 
-.caracteristicas .grid li {
+.sobre .grid li {
     padding: 0 30px;
     text-align: center;
 }
 
-.caracteristicas .grid li i {
+.sobre .grid li i {
     color: #5c2d01;
     font-size: 40px;
     margin-bottom: 30px;
 } 
 
-.caracteristicas .grid li h4 {
+.sobre .grid li h4 {
     font-size: 1.5rem;
     color: #5c2d01;
     margin-bottom: 40px;
 }
 
-.caracteristicas .grid li p {
+.sobre .grid li p {
     color: #fff;
 }
 
-/* BRREAKPOINT */ 
+/* BREAKPOINT */ 
 @media (max-width: 850px){
-    .caracteristicas .grid {
+    .sobre .grid {
         flex-direction: column;
     }
 }
 
-/*NEWSLETTER*/
+/*CLASS CONTATO*/
 
-.newsletter{
+.contato{
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 100px 50px;
 }
 
-.newsletter h3 {
+.contato h3 {
     font-size: 2rem;
     margin-bottom: 35px;
     color: #5c2d01;
@@ -347,14 +347,14 @@ header li:last-child {
     font-style: italic;
 }
 
-.newsletter p {
+.contato p {
     max-width: 800px;
     margin-bottom: 35px;
     color: #5c2d01;
     text-align: center;
 }
 
-.newsletter hr {
+.contato hr {
     width: 200px;
     height: 2px;
     background-color: #5c2d01;
@@ -362,7 +362,7 @@ header li:last-child {
     border: none;
 }
 
-.newsletter form {
+.contato form {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -371,7 +371,7 @@ header li:last-child {
     max-width: 800px;
 }
 
-.newsletter input {
+.contato input {
     padding: 15px;
     border: 1px solid #a86212;
     border-radius: 4px;
@@ -379,7 +379,7 @@ header li:last-child {
     flex: 1; /*OCUPA A LARGURA DISPONIVEL*/
 }
 
-.newsletter button {
+.contato button {
     padding: 15px;
     background-color: #5c2d01;
     color: #fff;
@@ -390,7 +390,7 @@ header li:last-child {
 }
 
 @media (max-width: 700px) {
-    .newsletter input {
+    .contato input {
         flex-basis: 100%; /*OCUPA 100% DA LARGURA DA TELA*/
         margin-bottom: 15px;
     }
