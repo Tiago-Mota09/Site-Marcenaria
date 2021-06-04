@@ -131,6 +131,7 @@ header li:last-child {
 .hero h3 {
     font-size: 2rem;
     margin-bottom: 15px;
+    
 }
 
 .hero .btn {
@@ -162,7 +163,7 @@ header li:last-child {
 /*estilo do botão submit no hover */
 
 
-/*DIMINUINDO OS TEXTO PARA MOBIL BRREAKPOINT */
+/*DIMINUINDO OS TEXTO PARA MOBIL BREAKPOINT */
 @media (max-width: 700px){
     .hero h1 {
         font-size: 2.5rem;
@@ -187,6 +188,7 @@ header li:last-child {
     text-align: center;
     margin-bottom: 35px;
     color: #5c2d01;
+    font-style: italic;
 }
 
 .conheca-o-hotel p {
@@ -223,14 +225,16 @@ header li:last-child {
 } 
 .conheca-o-hotel .grid li h2{
     font-size: 3rem;
-    font-family: 'PEIGNOT-LT-STD-BOLD';
+    font-family: 'calibri';
     color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 130px;
+    font-style: italic;
+
     
-    -webkit-text-stroke-width: 1px; /* largura da borda */
+    -webkit-text-stroke-width: 2px; /* largura da borda */
     -webkit-text-stroke-color: #5c2d01; /* cor da borda */
 } 
 
@@ -269,6 +273,8 @@ header li:last-child {
     margin-bottom: 35px;
     color: #fff;
     text-align: center;
+    font-family: 'calibri';
+    font-style: italic;
 }
 
 .caracteristicas p {
@@ -337,6 +343,8 @@ header li:last-child {
     margin-bottom: 35px;
     color: #5c2d01;
     text-align: center;
+    font-family: 'calibri';
+    font-style: italic;
 }
 
 .newsletter p {
